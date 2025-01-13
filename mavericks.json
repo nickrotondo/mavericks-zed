@@ -1,13 +1,23 @@
 {
+  "$schema": "https://zed.dev/schema/themes/v0.2.0.json",
   "name": "Mavericks",
   "author": "Nick Rotondo",
   "themes": [
     {
       "name": "Mavericks",
       "appearance": "dark",
+      "accents": [
+        "#70CBEB",
+        "#70E9EB",
+        "#AB96E3",
+        "#E396CF",
+        "E39796",
+        "E3AB96",
+        "E3D196",
+        "A8E396"
+      ],
       "style": {
         "background.appearance": "opaque",
-        "accents": [],
         "border": "#090f1159",
         "border.variant": "#090f1159",
         "border.focused": "#0b5d7a",
@@ -29,10 +39,10 @@
         "ghost_element.selected": "#0b5d7a",
         "ghost_element.disabled": null,
         "text": "#e9f6fb",
-        "text.muted": "#e9f6fb80",
+        "text.muted": "#7796A1",
         "text.placeholder": null,
         "text.disabled": null,
-        "text.accent": null,
+        "text.accent": "70E9EB",
         "icon": null,
         "icon.muted": null,
         "icon.disabled": null,
@@ -128,7 +138,7 @@
         "info": "#41bbe7",
         "info.background": "#4490BF00",
         "info.border": "#4490BF00",
-        "modified": "#037ba6",
+        "modified": "#70CBEB",
         "modified.background": null,
         "modified.border": null,
         "predictive": null,
@@ -145,7 +155,7 @@
         "unreachable.border": null,
         "warning": "#e7c141",
         "warning.background": "#A9904000",
-        "warning.border": "#ffffff00",
+        "warning.border": null,
         "players": [],
         "syntax": {
           "attribute": {
@@ -257,8 +267,7 @@
             "font_weight": null
           }
         }
-      },
-      "$schema": "https://zed.dev/public/schema/themes/v0.2.0.json"
+      }
     }
   ]
 }
